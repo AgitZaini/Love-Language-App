@@ -1,0 +1,191 @@
+{
+    "Soal": [
+        {
+            "no": 1,
+            "option1": "Saya menerima catatan/sms/email kata-kata manis saat sedang tidak ada sesuatu yang khusus dari orang yang saya kasihi.",
+            "option2": "Saya berpelukan dengan pasangan saya."
+        },
+        {
+            "no": 2,
+            "option1": "Saya bisa menghabiskan waktu sendiri hanya berdua dengan pasangan saya.",
+            "option2": "Pasangan saya melakukan sesuatu yang praktis untuk membantu saya"
+        },
+        {
+            "no": 3,
+            "option1": "Pasangan saya memberi bingkisan kecil sebagai tanda bahwa kami saling mengasihi",
+            "option2": "Saya mengambil waktu yang nyaman tanpa gangguan dengan pasangan saya"
+        },
+        {
+            "no": 4,
+            "option1": "Pasangan saya secara tidak disangka melakukan sesuatu untuk saya seperti mengisi penuh bahan bakar mobil saya atau mencuci pakaian",
+            "option2": "Saya saling bersentuhan dengan pasangan saya"
+        },
+        {
+            "no": 5,
+            "option1": "Pasangan saya merangkul saya di muka umum",
+            "option2": "Pasangan saya memberi saya kejutan berupa bingkisan kecil"
+        },
+        {
+            "no": 6,
+            "option1": "Saya bersama dengan pasangan saya, bahkan sekalipun kami tidak melakukan apapun",
+            "option2": "Saya bergandengan tangan dengan pasangan saya"
+        },
+        {
+            "no": 7,
+            "option1": "Pasangan saya memberi saya bingkisan",
+            "option2": "Saya mendengar kata ‘I love you’ dari pasangan saya"
+        },
+        {
+            "no": 8,
+            "option1": "Saya duduk dekat dengan pasangan saya",
+            "option2": "Saya dipuji oleh pasangan saya tanpa alasan yang semu"
+        },
+        {
+            "no": 9,
+            "option1": "Saya mendapat kesempatan untuk bercengkrama dengan pasangan saya",
+            "option2": "Saya mendapat hadiah yang tidak terduga dari pasangan saya"
+        },
+        {
+            "no": 10,
+            "option1": "Saya mendengar pasangan saya berkata kepada saya, 'Saya bangga kepadamu.'",
+            "option2": "Pasangan saya membantu saya mengerjakan tugas-tugas saya"
+        },
+        {
+            "no": 11,
+            "option1": "Saya mengerjakan sesuatu bersama-sama dengan pasangan saya",
+            "option2": "Saya mendengar kata-kata dorongan dari pasangan saya"
+        },
+        {
+            "no": 12,
+            "option1": "Pasangan saya melakukan sesuatu untuk saya dan bukan hanya membicarakan tentang melakukan sesuatu yang baik",
+            "option2": "Saya merasa terhubung dengan pasangan saya melalui pelukan"
+        },
+        {
+            "no": 13,
+            "option1": "Saya mendengar pujian dari pasangan saya",
+            "option2": "Pasangan saya memberikan sesuatu kepada saya sebagai perwujudan bahwa ia sangat perhatian kepada saya"
+        },
+        {
+            "no": 14,
+            "option1": "Saya bisa terus bersama-sama dengan pasangan saya",
+            "option2": "Punggung saya dipijat oleh pasangan saya"
+        },
+        {
+            "no": 15,
+            "option1": "Pasangan saya memberikan sikap positif terhadap sesuatu yang sudah saya capai",
+            "option2": "Pasangan saya melakukan sesuatu untuk saya yang saya tahu bahwa ia sebenarnya kurang bisa menikmatinya"
+        },
+        {
+            "no": 16,
+            "option1": "Pasangan saya dan saya sering berciuman",
+            "option2": "Saya merasa pasangan saya menunjukkan ketertarikan terhadap sesuatu yang saya perhatikan"
+        },
+        {
+            "no": 17,
+            "option1": "Pasangan saya mengerjakan proyek khusus yang harus saya selesaikan dengan saya",
+            "option2": "Pasangan saya memberikan hadiah yang sangat menarik"
+        },
+        {
+            "no": 18,
+            "option1": "Saya dipuji pasangan saya karena penampilan saya",
+            "option2": "Pasangan saya menyediakan waktu untuk mendengarkan saya dan ia benar-benar memahami perasaan saya"
+        },
+        {
+            "no": 19,
+            "option1": "Pasangan saya dan saya menunjukkan sentuhan non-seksual di muka umum",
+            "option2": "Pasangan saya menawarkan untuk mengerjakan urusan-urusan saya"
+        },
+        {
+            "no": 20,
+            "option1": "Pasangan saya mengerjakan lebih banyak daripada yang biasanya dia kerjakan dalam pembagian tugas-tugas dengan saya",
+            "option2": "Saya mendapat hadiah dari pasangan saya yang saya tahu bahwa hadiah itu ia pilih dengan sungguh-sungguh"
+        },
+        {
+            "no": 21,
+            "option1": "Pasangan saya tidak membuka handphone nya ketika kami berbincang-bincang",
+            "option2": "Pasangan saya mengajak saya keluar untuk meringankan rasa tertekan saya"
+        },
+        {
+            "no": 22,
+            "option1": "Saya bisa mengharapkan sebuah perjalanan liburan karena hadiah-hadiah yang saya cegah untuk diberikan",
+            "option2": "Saya mendengar kata “saya menghargaimu” dari pasangan saya"
+        },
+        {
+            "no": 23,
+            "option1": "Pasangan saya membawakan oleh-oleh saat ia pulang dari bepergian",
+            "option2": "Pasangan saya mengerjakan apa yang seharusnya menjadi tugas saya karena saya terlalu lelah untuk mengerjakannya"
+        },
+        {
+            "no": 24,
+            "option1": "Pasangan saya tidak menyela saya ketika saya berbicara",
+            "option2": "Pemberian hadiah menjadi bagian yang penting dalam hubungan kami"
+        },
+        {
+            "no": 25,
+            "option1": "Pasangan saya membantu saya ketika ia tahu bahwa saya sudah kelelahan",
+            "option2": "Saya pergi ke suatu tempat untuk menghabiskan waktu dengan pasangan saya"
+        },
+        {
+            "no": 26,
+            "option1": "Pasangan saya dan saya memiliki keintiman secara fisik",
+            "option2": "Pasangan saya memberikan kado kecil yang ia beli saat ia sedang beraktifitas"
+        },
+        {
+            "no": 27,
+            "option1": "Pasangan saya mengatakan sesuatu yang mendorong semangat saya",
+            "option2": "Saya menghabiskan waktu untuk mengerjakan aktivitas atau hobi dengan pasangan saya"
+        },
+        {
+            "no": 28,
+            "option1": "Pasangan saya memberi hadiah kejutan untuk menunjukkan penghargaan kepada saya",
+            "option2": "Pasangan saya dan saya sering bersentuhan ketika melakukan aktivitas sehari-hari"
+        },
+        {
+            "no": 29,
+            "option1": "Pasangan saya membantu saya, khususnya ketika saya tahu bahwa ia sebenarnya sedang sibuk",
+            "option2": "Saya mendengar pasangan saya secara khusus berkata, 'Aku menghargaimu.'"
+        },
+        {
+            "no": 30,
+            "option1": "Pasangan saya dan saya berpelukan setelah ia pulang dari bepergian beberapa lama",
+            "option2": "Saya mendengar pasangan saya berkata betapa berharganya saya bagi dia"
+        }
+    ],
+    "typeOfLoveLanguage": [
+        {
+            "name": "Quality Time",
+            "description": "Dia akan merasa dicintai saat pasangan meluangkan waktunya untuknya.",
+            "howToCommunicate": "Untuk mereka yang butuh perhatian penuh, pasangan wajib menghabiskan waktu tanpa distraksi seperti gadget, televisi atau lainnya.",
+            "actionsToTake": "Menghabiskan waktu bersama atau melakukan kegiatan berdua. Planning liburan bersama, nonton, makan malam berdua, atau sekedar leyeh-leyeh sambil mengobrol berjam-jam.",
+            "thingsToAvoid": "Main hp saat dia berbicara, terdistraksi dengan hal-hal yang tidak penting, terlalu sibuk dan tidak sempat meluangkan waktu untuknya."
+        },
+        {
+            "name": "Receiving Gifts",
+            "description": "Mereka akan senang ketika mendapat hadiah dari pasangannya. Apapun bentuknya, besar atau kecil, murah atau mahal, banyak atau sedikit.",
+            "howToCommunicate": "Mereka akan merasa dimengerti, diperhatikan, dan dihargai lebih dari segala pengorbanan yang diusahakan olehmu untuk memberikan hadiah tersebut kepadanya.",
+            "actionsToTake": "Cari tau sesuatu yang dia suka, sering-sering kasih dia surprise kecil, gaperlu nunggu momen, tiba-tiba kasih bunga aja udah bikin dia seneng, atau bawakan dia oleh-oleh saat kamu pulang dari suatu tempat.",
+            "thingsToAvoid": "Lupa momen-momen penting saat ultah atau anniversary. Tidak antusias atau tidak mengapresiasi ketika dia memberikan hadiah."
+        },
+        {
+            "name": "Act of Service",
+            "description": "Mereka akan merasa dicintai ketika pasangannya melakukan sesuatu untuk membantu meringankan beban mereka.",
+            "howToCommunicate": "Rajin-rajinlah membantu dia, dari hal-hal kecil sekalipun, pasti akan sangat diapresiasi.",
+            "actionsToTake": "Membuatkan bekal/masak untuknya, tawarkan diri untuk membantu pekerjaannya. Mereka akan senang bila melihat pasangannya mengeluarkan usaha untuk membahagiakannya.",
+            "thingsToAvoid": "Malas-malasan, menunda-nunda pekerjaan, tidak bersedia membantu pasangan."
+        },
+        {
+            "name": "Physical Touch",
+            "description": "Tidak selamanya berkaitan dengan aktivitas seksual. Orang dengan bahasa cinta ini merasa sangat disayang kalau kepalanya diusap, bahunya dipijat atau dipeluk.",
+            "howToCommunicate": "Mereka akan merasa dicintai dengan ungkapan non-verbal seperti body language atau sentuhan dari pasangannya.",
+            "actionsToTake": "Memegang tangannya dengan lembut, memeluk dari belakang, membelai rambutnya, dan lain sebagainya",
+            "thingsToAvoid": "Cuek dan tidak mesra, bersikap kasar, bahkan sampai memukulnya."
+        },
+        {
+            "name": "Words of Affirmation",
+            "description": "Mereka akan merasa sangat dicintai pasangannya ketika memberikan pujian atau mengatakan bahwa kita mencintainya.",
+            "howToCommunicate": "Menggunakan bahasa cinta lewat ungkapan kata-kata paling senang mendengar ekspresi verbal seperti “i love you” atau ”i’m proud of you”.",
+            "actionsToTake": "Puji dia, apresiasi setiap hal yang dia lakukan untukmu, katakan bahwa kamu mencintainya. Send unexpected note/texts. As simple as “Thank you” & “I Love You” aja udah bikin mereka senang.",
+            "thingsToAvoid": "Berbicara kasar, tidak mengapresiasi usahanya, jarang memuji, jarang berterimakasih baik hal kecil maupun hal besar."
+        }
+    ]
+}

@@ -1,0 +1,505 @@
+
+@keyframes pan {
+    100% {
+        background-position: 15% 50%;
+    }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    /* padding: 50px 50px 100px 100px; */
+    background-image: url("../style/images/DefaultBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .defaultBg {
+    width: 1440px;
+    height: 1024px;
+    background: url("../style/images/DefaultBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.card {
+    top: 0px;
+    right: 50px;
+    /* margin: auto; */
+    position: relative;
+    width: 1200px;
+    height: 800px;
+    filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.7));
+    background: #f2f2f2;
+    border-radius: 30px;
+}
+
+/* Navbar */
+.navbar {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    border-radius: 30px 30px 0px 0px;
+    background: #eeb96e;
+    align-items: center;
+}
+.navbar-action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 57.5px;
+    gap: 157px;
+    /* justify-content: space-between; */
+}
+
+.navbar-action a img {
+    width: 202px;
+    height: 47px;
+}
+.navbar-action li {
+    position: relative;
+}
+.navbar-menu {
+    display: flex;
+}
+.navbar-menu li {
+    position: relative;
+}
+.navbar-menu li a {
+    color: #2b478b;
+    /* font-weight: 600; */
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.navbar-menu ::after {
+    content: "";
+    position: absolute;
+    background: #2b478b;
+    /* background: #5468e7; */
+    /* color: #5468e7; */
+    transition: ease 0.42s;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -4px;
+}
+.navbar-menu :hover::after {
+    width: 100%;
+}
+
+/* All Button */
+.button {
+    width: 186px;
+    height: 50px;
+    color: #2b478b;
+    border-radius: 30px;
+    border-color: transparent;
+}
+.button:hover {
+    opacity: 0.5;
+    transform: translateY(-10px);
+}
+.login {
+    background: #f2f2f2;
+    transition: all 0.34s;
+}
+.getStarted {
+    color: white;
+    background: #f2994a;
+    transition: all 0.34s;
+}
+
+/* Card Image */
+.backgroundImageCard {
+    position: absolute;
+    top: 227px;
+    left: 478px;
+}
+.backgroundImageCard img {
+    width: 722px;
+    height: 461px;
+}
+
+/* Content */
+.content {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0px 58px;
+}
+.content .line {
+    border-bottom: 8px solid #2b478b;
+    width: 470.27px;
+}
+.content h1 {
+    font-family: "Hammersmith One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    -webkit-text-stroke: 2px #233862;
+    /* border: 2px solid #233862; */
+    color: transparent;
+}
+.content p {
+    font-family: "Homenaje", sans-serif;
+    width: 447px;
+    height: 189px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    color: #2b478b;
+}
+
+/* Type Love Language */
+.typeCard {
+    top: 121px;
+    margin: auto;
+    box-sizing: border-box;
+    position: relative;
+    width: 810.48px;
+    height: 457.61px;
+    background: rgba(242, 242, 242, 0.5);
+    border: 1px solid #f2994a;
+    box-shadow: 0px 4px 8px rgba(242, 153, 74, 0.7);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.typeCard h1 {
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #2b478b;
+    margin-bottom: 30px;
+}
+.typeCard h2 {
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    color: #4f4f4f;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.typeCard p {
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    color: #4f4f4f;
+}
+
+/* Question */
+.content-question {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    top: 55px;
+}
+.content-question h1 {
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+}
+
+.content-question h2 {
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    color: #4f4f4f;
+}
+.option {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    text-align: center;
+    margin: auto;
+}
+.option1 {
+    box-sizing: border-box;
+    /* position: absolute; */
+    display: flex;
+    width: 860px;
+    height: 160px;
+    left: 0px;
+    top: 149px;
+    background: #f2f2f2;
+    border: 3px solid #2b478b;
+    border-radius: 30px;
+    justify-content: center;
+}
+.option2 {
+    box-sizing: border-box;
+    /* position: absolute; */
+    display: flex;
+    width: 860px;
+    height: 160px;
+    left: 0px;
+    top: 149px;
+    background: #f2f2f2;
+    border: 3px solid #2b478b;
+    border-radius: 30px;
+    justify-content: center;
+}
+.option1 p,
+.option2 p {
+    width: 764px;
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    color: #2b478b;
+    margin: auto;
+}
+
+.content-button {
+    display: flex;
+    margin-top: 105px;
+}
+/* .exit {
+    position: absolute;
+} */
+.exit button {
+    margin-left: 168px;
+    background: transparent;
+    border: transparent;
+    /* margin-top: 55px; */
+}
+.exit img {
+    width: 50px;
+    height: 50px;
+}
+.exit:hover {
+    opacity: 0.5;
+    /* transform: translateY(-10px); */
+}
+.reset button {
+    margin-left: 580px;
+    /* justify-content: center; */
+    background: transparent;
+    border: transparent;
+    /* margin-top: 55px; */
+}
+.reset img {
+    width: 50px;
+    height: 50px;
+}
+.reset:hover {
+    opacity: 0.5;
+    /* transform: translateY(-10px); */
+}
+.next-back {
+    /* margin: auto; */
+    /* margin-left: 281px; */
+    margin-left: 626px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+}
+
+/* Selected option */
+.selected {
+    box-sizing: border-box;
+    background: #2b478b;
+    border: 3px solid #f2f2f2;
+    border-radius: 30px;
+}
+.selected p {
+    width: 764px;
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    color: #ffffff;
+    margin: auto;
+}
+
+/* Result Page */
+.content .test-result {
+    margin: auto;
+    position: relative;
+}
+
+.result-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+    position: relative;
+    width: 1029.64px;
+    margin: auto;
+    top: 50px;
+}
+.btn {
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #ffffff;
+
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    width: 303.21px;
+    height: 79.54px;
+    left: 0px;
+    top: 0px;
+
+    background: #2b478b;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+    transform: translateY(-10px);
+}
+.finish {
+    background-color: #82b378;
+}
+
+.swipe button {
+    background: transparent;
+    border: transparent;
+    z-index: 123;
+    position: relative;
+    top: -250px;
+}
+
+.left {
+    left: 50px;
+}
+.right {
+    left: 1050px;
+}
+
+/* MODAL */
+
+.modal-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* transform: scale(1, 1); */
+    width: 100%;
+    height:100%;
+    display: grid;
+    place-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 70%;
+    border-radius: 30px;
+    /* visibility: visible; */
+    transition: 0.5s;
+}
+
+/* body.open .modal-background{
+    opacity: 1;
+    visibility: visible;
+    animation: background-in 1s both;
+} */
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 800px;
+    height: 300px;
+    /* padding: 100px 40px; */
+    border-radius: 20px;
+    background: #37353b;
+    color: #f9f9f9;
+    opacity: 90%;
+    /* visibility: hidden; */
+    transition: 0.5s;
+
+    /* margin: auto; */
+    box-sizing: border-box;
+    /* position: relative; */
+    /* width: 810.48px;
+    height: 457.61px; */
+    /* background: rgba(242, 242, 242, 0.5); */
+    /* border: 1px solid #f2994a; */
+    /* box-shadow: 0px 4px 8px rgba(242, 153, 74, 0.7); */
+    /* border-radius: 30px; */
+    display: flex;
+    flex-basis: 0;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    padding: 30px;
+    columns: auto;
+}
+#wraping{
+    display: flex;
+    flex-wrap: wrap;
+}
+#wraping p{
+    width: 800px;
+    height: 300px;
+}
+.modal h1{
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #f2994a;
+    margin-bottom: 30px;
+    border:2px solid #f2994a;
+    border-radius: 10px;
+    padding: 8px;
+    justify-content: center;
+}
+.modal p{
+    font-family: "Homenaje";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    color: #fcf5f5;
+}
+/* 
+body.open .modal{
+    opacity: 1;
+    visibility: visible;
+    animation: modal-in 1s;
+}
+
+body.closed .modal{
+    opacity: 0;
+    visibility: hidden;
+    translate: -50% -50%;
+} */
